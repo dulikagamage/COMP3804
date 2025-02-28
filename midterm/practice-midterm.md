@@ -29,9 +29,9 @@
 
 ### Questions:
 
-1. Recall that N = {1, 2, 3, . . .} denotes the set of all positive integers. Let f : N → N and g : N → N be two functions such that f(n) = Ω(g(n)). Is it true that, for any two such functions f and g, log(f(n)) = Ω(log(g(n)))?
-   (a) This is true.
-   (b) This is not true.
+1. Recall that N = {1, 2, 3, . . .} denotes the set of all positive integers. Let f : N → N and g : N → N be two functions such that f(n) = Ω(g(n)). Is it true that, for any two such functions f and g, log(f(n)) = Ω(log(g(n)))?  
+   (a) This is true.   
+   (b) This is not true.  
 
 2. Consider the recurrence
    T(n) = 2T(n/4) + √n.
@@ -60,7 +60,7 @@
        return a + Multiply(2*a, (b-1)/2)
      endif
    ```
-   Assume that each addition, multiplication, and division in this algorithm takes O(1) time. What is the running time of algorithm Multiply(a, b)?
+   Assume that each addition, multiplication, and division in this algorithm takes O(1) time. What is the running time of algorithm Multiply(a, b)?  
    (a) T(n) = Θ(log a).  
    (b) T(n) = Θ(log b).  
    (c) T(n) = Θ(log(a+b)).  
@@ -70,7 +70,7 @@
    * First sort each array A_i individually using merge sort.
    * Then use the standard merge algorithm repeatedly: first merge A_1 and A_2, then merge the result with A_3, and so on.
    
-   What is the running time of this algorithm?
+   What is the running time of this algorithm?  
    (a) Θ(n^2 log n).  
    (b) Θ(n^3).  
    (c) Θ(n^2 log n^2).  
@@ -101,7 +101,7 @@
    (c) Θ(n^(5/3)).  
    (d) Θ(n^2).  
 
-8. Let S be a set of n distinct numbers. Assume this set S is stored in a max-heap A[1...n]. How much time does it take to use this heap to find the second-largest number of S?
+8. Let S be a set of n distinct numbers. Assume this set S is stored in a max-heap A[1...n]. How much time does it take to use this heap to find the second-largest number of S?  
    (a) Θ(1).  
    (b) Θ(log n).  
    (c) Θ(n).  
