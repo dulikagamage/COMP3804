@@ -1,0 +1,17 @@
+1 - do the multiplication for first few n's
+2 - use master theorem and n is your nlogn
+3 - recursion tree, logn levels, n work on each level, nlogn
+4 - assume our random element chosen is n/2, so we have recurrence: T(n) = n^2 + T(n/2)
+5 - to count a number occurence we need to check all numbers, so n
+6 - recursion tree, logn levels, n work at each level (3 splits of n/3)
+7 - root has to be largest (not fourth) then on right side put next 2 largest, then other side on index 2 we put the fourth largest, so 2...15
+8 - n time because its not a binary search, just a maxheap so we still have to check every number
+9 - Increasekey contians heapify, so if increasekey can be done in O(1) time, heapify is done in O(1) time, therefore when adding an element we can heapify and restore max-heap in O(1) time
+10 - Put both algorithms into a recurrence, so 3*T(n/3) + n^3 and 125*T(n/5)+ n^2, then solve using master theorem, they are both O(n^3) so they are equal
+11 - make the graph, color each nodes neighbor a different color, if 2 are colored the same side-by-side not bipartite
+12 - ??
+13 - ??
+14 - not too sure... assuming d because it can have so many different number of directed paths, so its not n, nlogn, or n^2, we cant limit to those exacts
+15 - we need to cycle through each list (|E|) of each vertex (|V|) so |E| + |V| (lists contain the edges)
+16 - draw 3 nodes in a directed circle, then draw the dfs tree to search it, there is only a back edge, no cross edge,. so false
+17 - ??
