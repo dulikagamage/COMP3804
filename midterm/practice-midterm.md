@@ -31,15 +31,15 @@
 
 1. Recall that N = {1, 2, 3, . . .} denotes the set of all positive integers. Let f : N → N and g : N → N be two functions such that f(n) = Ω(g(n)). Is it true that, for any two such functions f and g, log(f(n)) = Ω(log(g(n)))?  
    (a) This is true.   
-   **(b) This is not true.** 
+   (b) This is not true.  
 
 2. Consider the recurrence
    T(n) = 2T(n/4) + √n.
    Which of the following is true?  
    (a) T(n) = Θ(√n).  
-   **(b) T(n) = Θ(√n log n).**
+   (b) T(n) = Θ(√n log n).  
    (c) T(n) = Θ(n^(1/2)).  
-   **(d) T(n) = Θ(n^(1/2) log n).**
+   (d) T(n) = Θ(n^(1/2) log n).  
 
 3. Consider the recurrence
    T(n) = 3T(n/4) + n log n.
